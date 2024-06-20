@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PageHeader from "../components/PageHeader";
 
 const showResult = "Showing 01-12 of 139 Results";
-import Data from "D:/Front-end/pay/advanced-reactjs-ecommerce-website-starter-files/src/products.json"
+import Data from "../products.json"
 import ProductCards from "./ProductCards";
 const Shop = () => {
   const [GridList, setGridList] = useState(true);
